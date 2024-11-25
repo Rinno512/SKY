@@ -1,0 +1,18 @@
+debug: false
+uuid: 8c3c901b-dbd9-4404-a5fe-c0a0e5865f96
+token_id: oxKKLLc1mmiJwdeo
+token: mPIvzP3ecbVhpv3juFNcPsJLNm7k2tGCJTGshwGj4BmHT1fbff5mwLj1ZVgO2yHd
+api:
+  host: 0.0.0.0
+  port: 8080
+  ssl:
+    enabled: true
+    cert: /etc/letsencrypt/live/node.galazy.net.mckh.xyz/fullchain.pem
+    key: /etc/letsencrypt/live/node.galazy.net.mckh.xyz/privkey.pem
+  upload_limit: 100
+system:
+  data: /var/lib/pterodactyl/volumes
+  sftp:
+    bind_port: 2022
+allowed_mounts: []
+remote: 'https://ideal-umbrella-jjq6jxxr57pghr7w-80.app.github.dev'
